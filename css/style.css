@@ -1,8 +1,8 @@
-*{
+* {
     background: hsl(216deg 50% 11%);
 }
 
-.contenedor{
+.contenedor {
     width: 280px;
     padding: 20px;
     background: #14253d;
@@ -13,23 +13,71 @@
     text-align: center;
 }
 
-.img{
-    width: 100%;   
+.img {
+    width: 100%;
     border-radius: inherit;
 }
-.img2{
-    width: 29px;
-    height: 30px;
-    border-radius:50%;
+
+
+
+.img2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:2px solid white;
+
 }
 
-h1{
+h1 {
     color: white;
     background: inherit
 }
 
-p{
+h1:hover{
+    color:#00fff7;
+}
+
+p {
 
     color: #8bacda;
-    background: inherit 
+    background: inherit
+}
+
+.conte {
+    display: flex;
+    justify-content: space-around;
+    background: #14253d;
+}
+
+.cripto{
+    color:#00fff7;
+    background: #14253d;
+}
+
+.dias{
+    color: #8bacda;
+    background: inherit;
+}
+
+svg{
+    background:inherit;
+}
+
+.v-line{
+    margin-top: 20px;
+    height: 2px;
+    width: 100%;
+    border-radius:5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.titular{
+    background:inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.attribution{
+    color: white;
 }
